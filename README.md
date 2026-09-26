@@ -11,7 +11,7 @@
   <a href="https://pandas.pydata.org/" target="_blank" title="Pandas"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" alt="Pandas" width="55" height="55" /></a>
   <a href="https://numpy.org/" target="_blank" title="NumPy"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" alt="NumPy" width="55" height="55" /></a>
   <a href="https://matplotlib.org/" target="_blank" title="Matplotlib"><img src="https://upload.wikimedia.org/wikipedia/commons/8/84/Matplotlib_icon.svg" alt="Matplotlib" width="55" height="55" /></a>
-  <a href="https://seaborn.pydata.org/" target="_blank" title="Seaborn"><img src="https://seaborn.pydata.org/_images/logo-mark-light.svg" alt="Seaborn" width="55" height="55" /></a>
+  <a href="https://seaborn.pydata.org/" target="_blank" title="Seaborn"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Seaborn" width="55" height="55" /></a>
   <a href="https://jupyter.org/" target="_blank" title="Jupyter Notebooks"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" alt="Jupyter" width="55" height="55" /></a>
   <a href="https://git-scm.com/" target="_blank" title="Git"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" width="55" height="55" /></a>
 </div>
