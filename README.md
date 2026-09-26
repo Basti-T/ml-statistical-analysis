@@ -1,41 +1,58 @@
-# Statistics Basics 📈
+# 📊 Statistical Analysis & Data Foundations
 
-This repository serves as a personal notebook and code collection for fundamental concepts in statistics and data analysis. The goal is to provide simple, practical examples and explanations for core statistical topics using Python libraries like Pandas, NumPy, Matplotlib, and Seaborn.
-
----
-
-## 📚 Topics Covered
-
-- **Mean, Median, and Mode**: Understanding measures of central tendency.
-- **Data Distributions**: Exploring common distributions and visualizing them with histograms.
-- **Distribution Moments**: Analyzing the shape of distributions (skewness and kurtosis).
-- **Standard Deviation and Variance**: Measuring the spread of data.
-- **Covariance and Correlation**: Understanding the relationship between two variables.
-- **Conditional Probability**: The probability of an event given that another event has occurred, with real-world business examples.
-- **Bayes' Theorem**: Updating beliefs about probability based on new evidence, using a classic medical diagnosis example.
+> **Core statistical foundations, probability theory, and exploratory data analysis (EDA) implemented in Python for robust machine learning pipelines.**
 
 ---
 
-## 💻 Code and Tools
+## 🧰 Tech Stack & Tools
 
-- **Jupyter Notebooks**: Each topic is covered in a separate `.ipynb` file, containing code, visualizations, and explanations.
-- **Python Libraries**:
-    - **Pandas**: For data manipulation and analysis.
-    - **NumPy**: For numerical operations.
-    - **Matplotlib**: For creating basic static, animated, and interactive visualizations.
-    - **Seaborn**: For creating more advanced and aesthetically pleasing statistical charts.
-
----
-
-## 📊 Visualizations
-
-The notebooks include various plots to help illustrate the concepts, such as:
-- Histograms for data distributions.
-- Bar charts for probability comparisons.
-- Scatter plots for covariance and correlation.
+<div align="center" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 25px; padding: 20px 0;">
+  <a href="https://www.python.org" target="_blank" title="Python"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" width="55" height="55" /></a>
+  <a href="https://pandas.pydata.org/" target="_blank" title="Pandas"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" alt="Pandas" width="55" height="55" /></a>
+  <a href="https://numpy.org/" target="_blank" title="NumPy"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" alt="NumPy" width="55" height="55" /></a>
+  <a href="https://matplotlib.org/" target="_blank" title="Matplotlib"><img src="https://upload.wikimedia.org/wikipedia/commons/8/84/Matplotlib_icon.svg" alt="Matplotlib" width="55" height="55" /></a>
+  <a href="https://seaborn.pydata.org/" target="_blank" title="Seaborn"><img src="https://seaborn.pydata.org/_images/logo-mark-light.svg" alt="Seaborn" width="55" height="55" /></a>
+  <a href="https://jupyter.org/" target="_blank" title="Jupyter Notebooks"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" alt="Jupyter" width="55" height="55" /></a>
+  <a href="https://git-scm.com/" target="_blank" title="Git"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" width="55" height="55" /></a>
+</div>
 
 ---
 
-## 🤝 Contribution
+## 🎯 Overview
 
-This repository is primarily for personal learning. If you find any errors or have suggestions for improvement, please open an issue.
+High-performing machine learning systems and reliable predictive models require rigorous statistical foundations. This repository houses foundational Python implementations and Jupyter Notebooks demonstrating core concepts in statistics, probability, and exploratory data analysis (EDA). 
+
+Rather than abstract theory, these notebooks focus on practical data behavior, underlying distributions, and the mathematical sanity checks necessary before feeding data into enterprise ML architectures.
+
+---
+
+## 📚 Core Topics & Modules
+
+| Module | Focus & Business Relevance | Key Python Libraries |
+| :--- | :--- | :--- |
+| **Central Tendency** | Measures of central tendency (`Mean-Median-Mode.ipynb`) for baseline profiling. | `Pandas`, `NumPy` |
+| **Data Distributions** | Visualizing underlying data spread and skew via histograms (`DataDistributions.ipynb`). | `Matplotlib`, `Seaborn` |
+| **Distribution Moments** | Analyzing skewness and kurtosis (`DistributionMoments.ipynb`) to detect anomalies. | `NumPy`, `SciPy` |
+| **Dispersion & Variance** | Quantifying data spread (`StandardDevandVar.ipynb`) for risk assessment. | `Pandas`, `NumPy` |
+| **Relationship Analysis** | Evaluating variable interactions (`Covariance and Correlation.ipynb`) for feature selection. | `Pandas`, `Seaborn` |
+| **Probability Theory** | Conditional probability (`ConditionalProbability.ipynb`) applied to real scenarios. | Python Native |
+| **Bayesian Inference** | Updating probabilities with new evidence (`Bayes Theorem.ipynb`) for classification logic. | Python Native |
+
+---
+
+## 📂 Repository Structure
+
+```text
+ml-statistical-analysis/
+│
+├── Bayes Theorem.ipynb             # Bayesian updating & conditional logic
+├── Conditional Probability.ipynb   # Event probability scenarios
+├── Covariance and Correlation.ipynb# Multi-variable relationship metrics
+├── DataDistributions.ipynb         # Distribution shapes & histograms
+├── DistributionMoments.ipynb       # Skewness, kurtosis & moment analysis
+├── Matplotlib.ipynb                # Custom plotting & visualization guides
+├── Mean-Median-Mode.ipynb          # Basic statistical profiling
+├── Seaborn Visual.ipynb            # Advanced statistical charting
+├── StandardDevandVar.ipynb         # Variance and standard deviation mechanics
+├── cars_data.csv                   # Sample dataset for visual exploration
+└── normal_distributions_plot.png   # Generated visualization asset
